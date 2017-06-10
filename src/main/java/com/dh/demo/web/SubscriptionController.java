@@ -39,6 +39,7 @@ public class SubscriptionController {
         private String teacherId;
         private String studentId;
         private String roomId;
+        private String subjectId;
         private Date subDate;
 
         public String getTeacherId() {
@@ -63,6 +64,14 @@ public class SubscriptionController {
 
         public void setRoomId(String roomId) {
             this.roomId = roomId;
+        }
+
+        public String getSubjectId() {
+            return subjectId;
+        }
+
+        public void setSubjectId(String subjectId) {
+            this.subjectId = subjectId;
         }
 
         public Date getSubDate() {

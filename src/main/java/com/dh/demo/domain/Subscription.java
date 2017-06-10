@@ -19,6 +19,8 @@ public class Subscription {
     private Student student;
     @DBRef
     private Room room;
+    @DBRef
+    private Subject subject;
 
     private Date subDate;
 
@@ -60,5 +62,13 @@ public class Subscription {
 
     public void setRoom(Room room) {
         this.room = room;
+    }
+
+    public Subject getSubject() {
+        return subject;
+    }
+
+    public void setSubject(Subject subject) {
+        this.subject = subject;
     }
 }
